@@ -16,6 +16,12 @@ display: inline-block;
 margin-top: 24px;
 border-radius: 12px;
 cursor: pointer;
+
+&:hover {
+    background-color: #a1b1cc;
+    color: ${(props) => props.theme.cordeFundoBotao}; /* Altera a cor do texto no hover */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Suaviza a transição */
+  }
 `;
 
 
@@ -29,6 +35,11 @@ display: inline-block;
 margin: 24px;
 border-radius: 12px;
 cursor: pointer;
+&:hover {
+    background-color: #a1b1cc;
+    color: ${(props) => props.theme.cordeFundoBotao}; /* Altera a cor do texto no hover */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Suaviza a transição */
+  }
 `;
 
 // Novos estilos para as tags
