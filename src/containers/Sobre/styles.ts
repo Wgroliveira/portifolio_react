@@ -13,4 +13,7 @@ img {
     width: 100%;
   }
 }
+.sobre-container p {
+  text-align: justify; /* Justifica o texto */
+}
 `

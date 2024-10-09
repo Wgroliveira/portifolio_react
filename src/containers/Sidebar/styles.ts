@@ -9,6 +9,7 @@ margin-bottom: 40px;
 
 export const BotaoTema = styled.button`
 border-radius: 12px;
+margin-top: 20px;
 padding: 8px;
 color: ${(props) => props.theme.corDeFundo};
 font-size: 10px;
@@ -20,7 +21,8 @@ cursor: pointer;
 export const SidebarContainer = styled.div`
 position: sticky;
 top: 80px;
-left: 0;
+left:0;
+margin-left: -50px;
 
 @media ( max-width: 768px) {
   margin-bottom: 40px;
